@@ -30,7 +30,7 @@ app.get('/todos',(req,res)=>{
 
 app.completed("/completed",(req,res)=>{
 
-
+    console.log("jashandeep")
     const payloadBody = req.body
     const parsedPayload = idSchema.safeParse(payloadBody)
 
